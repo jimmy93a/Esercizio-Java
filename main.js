@@ -27,8 +27,17 @@ let num7 = 1000;
 let somma = ( num3 + num4 + num5 + num6 + num7 );
 let media = ( num3 + num4 + num5 + num6 + num7 ) / 5;
 
-console.log( `La somma tra i numeri equivale a ` + somma);
+console.log( `La somma tra i numeri equivale a ${somma} `);
 
-console.log( `La media tra i numeri equivale a ` + media);
+console.log( `La media tra i numeri equivale a ${media}` );
+
+let nascita = 2000;
+let anno = 2025;
+
+let età = (anno - nascita);
+let traguardo = (100 - età);
+
+console.log( `Hai ${età} anni`);
+console.log( `Ti mancano ${traguardo} anni per compierne 100`);
 
 
