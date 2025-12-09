@@ -16,10 +16,19 @@ const PIGRECO = 3.14159265359;
 
 console.log(PIGRECO);
 
-PIGRECO = 22;
-
-console.log(PIGRECO);
 
 
+let num3 = 3;
+let num4 = 55;
+let num5 = 34;
+let num6 = 10;
+let num7 = 1000;
+
+let somma = ( num3 + num4 + num5 + num6 + num7 );
+let media = ( num3 + num4 + num5 + num6 + num7 ) / 5;
+
+console.log( `La somma tra i numeri equivale a ` + somma);
+
+console.log( `La media tra i numeri equivale a ` + media);
 
 
